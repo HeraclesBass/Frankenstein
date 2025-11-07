@@ -37,10 +37,10 @@ This isn't just a server - it's an **AI-augmented development platform** that ri
 - **Agent Registry** - 116KB living system with 113 evolution snapshots
 
 **Scale Indicators:**
-- **339GB** of managed code and data
-- **1,592,769** files under active management
-- **35,275** documentation files (always current)
-- **605,234** code files (Python + JavaScript/TypeScript)
+- **320GB** of development data (excluding dependencies)
+- **~651,000** files under active management
+- **~8,300** documentation files (markdown)
+- **~49,000** source code files (15K Python + 34K JS/TS)
 - **18** active Git repositories
 - **64** unique container images
 - **Up to 5** parallel agent tasks simultaneously

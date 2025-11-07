@@ -29,12 +29,15 @@ This document analyzes the Hercules platform as a case study in AI-augmented dev
 - **Uptime:** 77+ days current streak
 
 **Scale Indicators:**
-- **Total Data:** 339GB in /home/hercules
-- **Total Files:** 1,592,769 files under management
-- **Documentation:** 35,275 Markdown files
-- **Python Code:** 35,435 .py files
-- **JavaScript/TypeScript:** 569,799 JS/TS files
+- **Development Data:** 320GB (excluding node_modules, cache, build artifacts)
+- **Development Files:** ~651,000 files under active management
+- **Documentation:** ~8,300 Markdown files
+- **Python Code:** ~15,000 .py files
+- **JavaScript/TypeScript:** ~34,000 JS/TS files
+- **Total Source Code:** ~49,000 files
 - **Git Repositories:** 18 active projects
+
+**Note:** Excludes ~900K+ dependency files (node_modules), cache files, and build artifacts. These numbers represent actual development work, not bloated dependencies.
 
 ### Orchestration Layer: Claude Code CLI v2.0.35
 
@@ -301,8 +304,8 @@ Context: Shared 200K token context window, zero handoff cost
 **Velocity Metrics:**
 - **Agent ecosystem:** Grew from 44 to 51 agents in 1 month
 - **Registry evolution:** 113 backups = continuous iteration
-- **Documentation:** 35,275 markdown files maintained
-- **Codebase:** 569,799 JS/TS files + 35,435 Python files
+- **Documentation:** ~8,300 markdown files maintained
+- **Codebase:** ~34,000 JS/TS files + ~15,000 Python files
 - **Uptime:** 77+ days without infrastructure failure
 
 **Development Patterns That Were Impossible Before 2024:**
@@ -398,10 +401,12 @@ Context Window Comparison:
 **Storage:**
 ```
 906GB RAID array (redundant, fast)
-339GB actual data (37% utilization)
-1.59M files under management
+320GB development data (35% utilization)
+~651K files under active management
+~49K source code files
 
-Equivalent to: ~300 typical GitHub repositories
+Equivalent to: ~50-100 typical GitHub repositories
+Note: Excludes ~19GB of .git objects and ~900K dependency files
 ```
 
 ### Intelligence Layer Weight
@@ -437,8 +442,9 @@ Realistic effective team size: 5-10 full-time developers
 64 unique container images
 45 actively used images
 18 Git repositories
-35,275 documentation files
-605,234 code files (Python + JS/TS)
+~8,300 documentation files (markdown)
+~49,000 source code files (~15K Python + ~34K JS/TS)
+~651,000 total development files (excluding dependencies)
 ```
 
 **Observability Infrastructure:**
