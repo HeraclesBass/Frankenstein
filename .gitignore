@@ -1,0 +1,122 @@
+# Frankenstein .gitignore
+# For experiments and documentation repository
+
+# ----- Operating System -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# ----- IDEs and Editors -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ----- Experiment-specific -----
+# Allow experiments to have their own .gitignore for specific needs
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+*/venv/
+*/env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets and credentials
+secrets/
+*.key
+*.pem
+*.crt
+credentials.json
+token.json
+.credentials/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+log/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Build outputs
+out/
+output/
+*.o
+*.a
+*.exe
+*.dll
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# OS-specific
+.Trash/
+
+# ----- Keep experiment artifacts -----
+# Allow experiment results and data
+!experiments/*/results/
+!experiments/*/data/
+
+# But ignore large data files
+*.csv
+*.json.gz
+*.tar.gz
+*.zip
+*.7z
+
+# ----- Documentation -----
+# Keep all markdown files
+!*.md
+
+# ----- Personal notes that shouldn't be public -----
+PRIVATE/
+private/
+**/PRIVATE.md
+**/private-notes.md
