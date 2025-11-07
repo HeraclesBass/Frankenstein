@@ -26,6 +26,37 @@ Just as Mary Shelley's Dr. Frankenstein conducted his experiments in Germany, th
 - **Agents:** 48 specialized AI agents ready to assist
 - **Uptime:** 77+ days of continuous operation
 
+### 🤖 The AI Environment Weight
+
+This isn't just a server - it's an **AI-augmented development platform** that rivals traditional 5-10 person development teams:
+
+**Intelligence Layer:**
+- **Claude Sonnet 4.5** - 200K token context window (entire codebases in memory)
+- **Claude Code CLI v2.0.35** - Autonomous agent orchestration with parallel execution
+- **48 Active AI Agents** - Specialized workers across 15+ domains
+- **Agent Registry** - 116KB living system with 113 evolution snapshots
+
+**Scale Indicators:**
+- **339GB** of managed code and data
+- **1,592,769** files under active management
+- **35,275** documentation files (always current)
+- **605,234** code files (Python + JavaScript/TypeScript)
+- **18** active Git repositories
+- **64** unique container images
+- **Up to 5** parallel agent tasks simultaneously
+
+**The 2024 Paradigm Shift:**  
+What cost $500K-800K/year in traditional dev teams (5 people) is now achievable by **one developer + AI** for ~$100K/year. This transformation became possible for everyone when Claude Code CLI launched publicly in 2024.
+
+**Development Velocity:**
+- Traditional team: 2-3 parallel workstreams
+- Hercules Platform: 5+ simultaneous agent operations
+- Code review: Seconds instead of hours
+- Deployment: Automated multi-service orchestration
+- Monitoring: 24/7 agent-managed observability
+
+Read the full analysis: [`docs/research/20251107-ai-augmented-development-infrastructure.md`](/docs/research/20251107-ai-augmented-development-infrastructure.md)
+
 ---
 
 ## 📁 Repository Structure
