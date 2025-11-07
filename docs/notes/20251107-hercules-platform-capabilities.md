@@ -11,6 +11,8 @@
 
 Comprehensive snapshot of the Hercules development platform's hardware, software, services, and capabilities as of November 2025.
 
+> **⚡ The Lore:** This server lives in Falkenstein, Germany - home to some of Europe's most efficient data centers. Like Dr. Frankenstein's laboratory, our modern "creation chamber" harnesses German engineering precision to bring experiments to life. The Hercules platform runs on renewable energy in a state-of-the-art facility, balancing raw computing power with environmental responsibility.
+
 ---
 
 ## Hardware Specifications
@@ -41,6 +43,26 @@ Comprehensive snapshot of the Hercules development platform's hardware, software
 - **OS:** Debian GNU/Linux (Bookworm)
 - **Kernel:** 6.1.0-37-amd64
 - **Type:** SMP PREEMPT_DYNAMIC
+
+### Physical Location
+- **Data Center:** Falkenstein, Germany 🇩🇪
+- **Region:** Europe (EU)
+- **Provider:** Hetzner (renowned for German engineering efficiency)
+- **Energy:** Renewable energy-powered facility
+- **Compliance:** GDPR-compliant infrastructure
+- **Latency Considerations:**
+  - Excellent for European users (~10-30ms)
+  - Good for US East Coast (~80-100ms)
+  - Moderate for US West Coast (~150-170ms)
+  - Higher for Asia-Pacific (~200-300ms)
+
+**Why Falkenstein?**
+- Superior price-to-performance ratio
+- Robust network infrastructure (multiple Tier 1 uplinks)
+- Low latency to major European cities
+- Strong data protection regulations
+- Green energy commitment
+- Excellent uptime SLAs (as evidenced by our 77-day streak)
 
 ---
 
